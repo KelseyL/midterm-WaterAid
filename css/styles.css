@@ -21,7 +21,7 @@ nav ul li a:hover {
 }
 
 a:active {
-	list-style-image:url('donate-button.jpg');
+
 }
 
 .wrapper {
@@ -29,6 +29,7 @@ a:active {
 }
 
 header {
+	display:inline-block;
 	padding-top:20px;
 	border-bottom:solid 1px #ebebeb;
 }
@@ -62,10 +63,12 @@ nav ul li a {
 
 h1 {
 	text-align:right;
+	color:#01abe9;
 }
 
 article {
 	float:left;
+	margin-right:550px;
 }
 
 .illustration {
@@ -75,6 +78,11 @@ article {
 
 footer {
 	border-top:solid 1px #ebebeb;
+}
+
+h3 {
+	font-size:10px;
+	color:#959099; 
 }
 
 
