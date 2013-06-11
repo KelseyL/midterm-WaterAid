@@ -25,7 +25,7 @@ a:active {
 	margin:0px auto;
 	max-width:960px;
 	width:100%;
-	min-height:900px;
+	min-height:550px;
 	height:100%;
 }
 
@@ -36,8 +36,43 @@ header {
 	width:100%;
 }
 
-.location form select {
+header img{
+	margin-right:220px;
+}
 
+.location {
+	float:right;
+	padding-top:10px;
+}
+
+.location form select {
+	border:0;
+	background-color:#ebebeb;
+	font-family:Helvetica, Ariel, sans serif;
+	font-size:11px;
+	color:#01abe9;
+	padding:5px 0px 5px 3px;
+	width:200px;
+}
+
+.searchbar {
+	float:right;
+	padding-top:10px;
+	padding-left:5px;
+}
+
+.searchbar #search {
+	border:0;
+	background-color:#ebebeb;
+	font-family:Helvetica, Ariel, sans serif;
+	font-size:11px;
+	color:#01abe9;
+	padding:5px 0px 5px 3px;
+	width:200px;
+}
+
+.searchbar #go{
+	display:inline-block;
 }
 
 nav {
@@ -45,7 +80,7 @@ nav {
 	margin-left:0px;
 	float:left;
 	border-bottom:solid 1px #ebebeb;
-	padding:5px 0px; 
+	padding:8px 0px 5px 0px; 
 }
 
 nav ul {
@@ -64,6 +99,7 @@ nav ul li a {
 	color:#959099;
 	float:left;
 	font-size:15px;
+	margin-left:10px;
 }
 
 .secondary {
@@ -77,7 +113,8 @@ nav ul li a {
 
 .secondary li a{
 	font-size:10px;
-	padding:17px 0px 8px 30px; 
+	padding:17px 0px 8px 0px; 
+	margin:0px 15px;
 }
 
 #content {
@@ -91,14 +128,17 @@ h1 {
 
 .donateform {
 	padding-bottom:20px;
+	margin-left:30px;
 }
 
 .donateform form input {
 	padding:6px 0px 6px 5px;
-	width:380px;
+	width:330px;
 	background-color:#ebebeb;
 	color:#01abe9;
 	font-size:14px;
+	border:none;
+	margin-bottom:10px;
 }
 
 aside {
@@ -114,6 +154,7 @@ aside img {
 .illustration {
 	float:right;
 	padding:50px 0px 0px 0px;
+	margin-right:30px;
 }
 
 footer {
@@ -128,7 +169,29 @@ h3 {
 	padding-top:5px;
 }
 
+.twitter, .g+, .fb{
+	background: url(sprites.png) no-repeat;
+	text-indent:-99999px;
+	display:inline-block;
+	float:right;
+}
 
+.twitter{
+	background-position: -9px -10px ;
+	width: 32px;
+	height: 32px;
+}
 
+.g+{
+	background-position: -109px -9px ;
+	width: 32px;
+	height: 32px;
+}
 
+.fb{
+	background-position: -59px -9px ;
+	width: 32px;
+	height: 32px;
+}
 
+}
