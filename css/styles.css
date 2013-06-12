@@ -119,6 +119,7 @@ nav ul li a {
 
 #content {
 	padding-top:60px;
+	margin-top:32px;
 }
 
 h1 {
@@ -169,8 +170,8 @@ h3 {
 	padding-top:5px;
 }
 
-.twitter, .g+, .fb{
-	background: url(sprites.png) no-repeat;
+.twitter, .gplus, .fb{
+	background: url(../sprites/sprites.png) no-repeat;
 	text-indent:-99999px;
 	display:inline-block;
 	float:right;
@@ -178,20 +179,20 @@ h3 {
 
 .twitter{
 	background-position: -9px -10px ;
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 30px;
 }
 
-.g+{
+.gplus{
 	background-position: -109px -9px ;
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 30px;
 }
 
 .fb{
 	background-position: -59px -9px ;
-	width: 32px;
-	height: 32px;
+	width: 30px;
+	height: 30px;
 }
 
 }
