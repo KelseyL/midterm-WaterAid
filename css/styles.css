@@ -8,16 +8,8 @@ a:link {
 	color:#959099;
 }
 
-a:visited {
-
-}
-
 nav ul li a:hover {
 	background-color:#ebebeb; 
-}
-
-a:active {
-
 }
 
 .wrapper {
@@ -61,7 +53,7 @@ header img{
 	padding-left:5px;
 }
 
-.searchbar #search {
+.searchbar form #search {
 	border:0;
 	background-color:#ebebeb;
 	font-family:Helvetica, Ariel, sans serif;
@@ -71,8 +63,11 @@ header img{
 	width:200px;
 }
 
-.searchbar #go{
-	display:inline-block;
+.searchbar form #go{
+	border:none;
+	color:#01abe9;
+	font-size:11px; 
+	padding:3px 0px 3px 0px;
 }
 
 nav {
@@ -195,4 +190,3 @@ h3 {
 	height: 30px;
 }
 
-}
